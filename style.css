@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.calculator button {
+    width: 40px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculator button.equal {
+    width: 70%;
+}
+
+.calculator button:hover {
+    background-color: #f0f0f0;
+}
